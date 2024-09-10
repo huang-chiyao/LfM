@@ -1,1 +1,4 @@
-# LfM
+# Learning from Motion: A Contrastive Approach to Visual Odometry in Non-Continuous Conditions
+
+## Abstract
+Visual odometry (VO) plays a crucial role in various applications, from autonomous vehicles to robotics, but remains challenging under non-continuous conditions where data may be fragmented or interrupted, such as in environments with poor sensor coverage, intermittent signal loss, or rapid scene changes. In this paper, we present a novel approach to learning-based visual odometry, Learning from Motion (LfM): A Contrastive Approach to Visual Odometry in Non-Continuous Conditions, which leverages contrastive learning to enhance model performance in such scenarios. Our method, LfM, effectively ranks latent representations according to the robot's motion in 3D space, improving trajectory estimation even when the data sequence is non-continuous. We validate our approach through experiments on the KITTI dataset, demonstrating the effectiveness of LfM in challenging environments. These results highlight the potential of LfM to improve the reliability of VO systems in real-world applications, particularly in non-continuous data conditions.
